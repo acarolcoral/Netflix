@@ -3,6 +3,7 @@ import './PageHome.css';
 //Importação obrigatória para lidar com API em React
 import {useEffect, useState} from 'react';
 
+//teste
 
 function PageHome(){
 
