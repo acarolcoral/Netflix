@@ -3,11 +3,20 @@ import './PageHome.css';
 //Importação obrigatória para lidar com API em React
 import {useEffect, useState} from 'react';
 
-//teste
+//teste 
 
 function PageHome(){
 
-    //Onde os resultados da requisição para API serão armazenados
+    let lista = [
+        'Início',
+        'Séries',
+        'Filmes',
+        'Bombando',
+        'Minha Lista',
+        'Navegar por idiomas'
+    ];
+
+   /* //Onde os resultados da requisição para API serão armazenados
     const [data, setData] = useState([])
 
     const url = 'https://api.themoviedb.org/3/movie/top_rated?language=pt-BR&page=1';
@@ -28,11 +37,14 @@ function PageHome(){
     })
     .catch(err => console.error(err));
     }, [url]);
-
+    */
 
     return(
-        <BarraDeNavegação links = {data}/>
-
+        <div className="page-home">
+            <BarraDeNavegação links = {lista}/> 
+        </div>
+        
+                                        //lista ou data
     );
 }
 
