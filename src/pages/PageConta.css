@@ -1,0 +1,34 @@
+.page-conta{
+    border: solid 2px red;
+
+    margin: 0;
+    padding: 10px;
+
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.page-conta > .cabecalho{
+    border: solid 2px rgb(0, 17, 255);
+
+    height: 64px;
+
+}
+
+.page-conta > .principal{
+    border: solid 2px aqua;
+
+    height: fit-content; /* a altura se ajusta com os filhos do div*/
+
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.page-conta > .principal > .esquerda{
+    width: 300px;
+}
+
+.page-conta > .principal > .conteudo{
+    border: solid 2px #999999;
+}

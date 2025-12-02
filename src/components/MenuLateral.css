@@ -1,0 +1,39 @@
+div {
+    /* border: solid 1px blue; */
+    padding: 10px;
+
+}
+
+.icones {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+
+    color: rgba(0, 0, 0, 0.651);
+}
+
+.icone-topo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+
+    padding-bottom: 30px;
+
+    font-weight: 500;
+}
+
+.icones-do-meio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+
+    font-weight: 600;
+}
+
+.icone{
+    width: 20px;
+    height: 20px;
+}

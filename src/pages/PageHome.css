@@ -1,0 +1,9 @@
+.page-home{
+    width: 100%;
+    min-height: 100hv;
+
+    background-color: black;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: contain;
+}

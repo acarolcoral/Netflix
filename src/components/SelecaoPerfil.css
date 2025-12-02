@@ -1,0 +1,27 @@
+.Selecao-Perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+.Conteiner-Perfis{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+    padding-bottom: 64px;
+}
+
+.Selecao-Perfil > .titulo{
+    font-size: 64px;
+    font-weight: 400;
+    color: white;
+}
+
+.Botao-Vazado{
+    display: flex;
+    align-items: center;
+
+    
+}

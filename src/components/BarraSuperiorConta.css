@@ -1,0 +1,26 @@
+.BarraSuperiorConta{
+    width: 100%;
+    height: 60px;
+    border: 1px solid;
+    padding: 4px;
+
+    display: flex;
+    justify-content: space-around;
+
+
+    
+}
+.BarraSuperiorConta-2{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.Logo{
+    object-fit: contain;
+}
+
+.Perfil{
+    border-radius: 8px;
+    width: 48px;
+    object-fit: contain;
+}

@@ -1,0 +1,71 @@
+.DetalhesConta{
+    display: flex;
+    box-shadow: 0 0 2px 0 #ada9a9; 
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.Gerenciamento{
+    
+    display: flex;
+    box-shadow: 0 0 2px 0 #ada9a9; 
+    flex-direction: column;
+    padding-left: 15px;
+    gap: 5px;
+      
+    
+
+}
+
+.Conta{
+    font-size: 50px;
+    font-weight: 800;
+    color: black;
+}
+
+.Detalhes{
+    font-weight: 100;
+    color: rgb(61, 61, 61);
+}
+
+.Assinante{
+    display: flex;
+    
+    margin-right: 70px;
+    border-radius: 0px 12px 12px 0;
+    padding: 5px 10px;
+    
+    color: white;
+    background: #9500ff;
+background: linear-gradient(283deg,rgba(149, 0, 255, 1) 0%, rgba(73, 0, 125, 1) 50%, rgba(73, 0, 125, 1) 100%);
+
+}
+
+.Plano{
+    font-weight: 800;
+    display: flex;
+    padding-top: 10px;
+    
+}
+.Proximo{
+    font-weight: 100;
+    color: #616161;
+}
+
+.Gerenciamento-2{
+
+    display: flex;
+    
+    gap: 10px;
+    align-items: center;
+}
+
+.Gerenciamento-3{
+    border-top: 1px rgb(92, 92, 92) solid;
+    margin-right: 10px;
+    display: flex;
+    padding-top: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
