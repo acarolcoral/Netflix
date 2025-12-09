@@ -15,8 +15,8 @@ function SelecaoPerfil({listaDePerfis}){
         <div className='Selecao-Perfil'>
             <span className='titulo'>Quem está assistindo?</span>
             <div className='Conteiner-Perfis'>
-                {listaDePerfis.map(perfil => (
-                    <CardPerfil foto={perfil.foto} nome={perfil.nome}/>
+                {listaDePerfis.map((perfil, index) => (
+                    <CardPerfil key={index} foto={perfil.foto} nome={perfil.nome}/>
                 ))}
               
                 

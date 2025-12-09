@@ -12,14 +12,15 @@ function BarraDeNavegacao({links}){
 
             <div className='topico1'>
 
-                <img className='logo' src={netflix}/>
+                <img id='logo' src={netflix}/>
 
-                {links.map(topico => (
-                     <span>{topico}</span>
+                {links.map((topico, index) => (
+                     <span key={index}>{topico}</span>
                 ))}  
 
             </div>
-            <Link to="/conta" className='topico2'>
+            
+            <Link to="/conta" className='conta'>
                 <IoPersonOutline />
                 <span>Conta</span>
             </Link>

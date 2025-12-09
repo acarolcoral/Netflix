@@ -9,31 +9,29 @@ import { IoIosArrowForward } from "react-icons/io";
 function DetalhesConta(){
     return(
         <div className='DetalhesConta'>
-            <div>
-                <span className='Conta'>Conta</span>
+            <div className="conta_titulo">
+                <span id="conta">Conta</span>
+                <span id="detalhes">Detalhes da assinatura</span>
             </div>
-            <div>
-                <span className='Detalhes'>Detalhes da assinatura</span>
-            </div>
+
             <div className='Gerenciamento'>
-                <span className='Assinante'>Assinante desde julho de 2025</span>
-                <span className='Plano'>Plano padrao</span>
-                <span className='Proximo'>Próximo pagamento: 31 de janeiro de 2025</span>
-                <div className='Gerenciamento-2'>
-                    <FaCcMastercard />
-                    <span>****</span>
-                    <span>****</span>
-                    <span>****</span>
-                    <span>2777</span>
+                <span id='Assinante'>Assinante desde julho de 2025</span>
+
+                <div className="plano">
+                    <span id='tipo-Plano'>Plano padrao</span>
+                    <span id='data-pagamento'>Próximo pagamento: 31 de janeiro de 2025</span>
+                    <div className='Cartao'>
+                        <FaCcMastercard />
+                        <span id="num-cartao">#### #### #### 6307</span>
+                    </div>
                 </div>
-                <div className='Gerenciamento-3'>
-                    <span>Gerenciar assinatura</span>
+                
+                <div className='Gerenciar-assinatura'>
+                    <span id="gerenciar">Gerenciar assinatura</span>
                     <IoIosArrowForward />
-
-
                 </div>
-            </div>
 
+            </div> 
 
         </div>
         

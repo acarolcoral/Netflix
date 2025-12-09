@@ -9,9 +9,9 @@ import { IoIosArrowDown } from "react-icons/io";
 function BarraSuperiorConta(){
     return(
         <div className='BarraSuperiorConta'>
-            <img className='Logo' src={netflix}/>
+            <img id='Logo' src={netflix}/>
             <div className='BarraSuperiorConta-2'>
-                <img className='Perfil' src={fotoPerfil}/>
+                <img id='Perfil' src={fotoPerfil}/>
                 <IoIosArrowDown />
             </div>
         </div>

@@ -1,9 +1,17 @@
-.page-home{
-    width: 100%;
-    min-height: 100hv;
+body {
 
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+
+    background-image: url(../assets/dancando-no-escuro.webp);
     background-color: black;
-    background-image: url(../assets/dançando-no-escuro.webp);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
+}
+.Page-home{
+    display: flex;
+    flex-direction: column;
+    gap: 350px;
 }

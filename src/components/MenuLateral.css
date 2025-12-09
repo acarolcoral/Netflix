@@ -1,39 +1,69 @@
-div {
-    /* border: solid 1px blue; */
-    padding: 10px;
+.menu-item {
+    background-color: aliceblue;
+    height: max-content;
+    width: max-content;
+    padding: 20px;
 
-}
-
-.icones {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    gap: 30px;
-
-    color: rgba(0, 0, 0, 0.651);
+    gap: 5px;
+    
 }
-
-.icone-topo {
+.item-top{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 10px;
-
-    padding-bottom: 30px;
-
-    font-weight: 500;
+    gap: 15px;
+    padding: 12px 24px 32px 24px;
+    
+}
+.item-inferior{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
-.icones-do-meio {
+.item{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 10px;
-
-    font-weight: 600;
+    padding: 12px 24px 12px 24px;
+    gap: 15px;
+   
+}
+.item-select{
+    font-weight: 700;
+}
+.item-icons-select {
+    color: black;
 }
 
-.icone{
-    width: 20px;
-    height: 20px;
+.item-icons{
+    width: 24px;
+    height: 24px;
+}
+
+.item-icons.top {
+    color: black;
+}
+
+.item-icons.select {
+    color: black;
+}
+
+.item-noselect {
+    color: #555;
+}
+
+.item-icons.noselect {
+    color: #555;
+}
+
+.item-select {
+    color: black;
+}
+
+.item-top {
+    color: black;
 }

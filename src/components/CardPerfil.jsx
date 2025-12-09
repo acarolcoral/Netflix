@@ -13,7 +13,7 @@ function CardPerfil({foto,nome}){
             <span className='nome-perfil'>{nome}</span>
         </Link>
     );
-
+ 
 }
 
 

@@ -1,7 +1,8 @@
-import BarraDeNavegação from '../components/BarraDeNavegacao';
+import BarraDeNavegacao from '../components/BarraDeNavegacao';
+import InformacoesFilmes from '../components/InformacoesFilme';
 import './PageHome.css';
 //Importação obrigatória para lidar com API em React
-import {useEffect, useState} from 'react';
+//import {useEffect, useState} from 'react';
 
 //teste 
 
@@ -40,22 +41,26 @@ function PageHome(){
     */
 
     return(
-        <div className="page-home">
-            <BarraDeNavegação links = {lista}/> 
+
+        <div className="Page-home">
+
+            <div className="Barra-Navecacao">
+                <BarraDeNavegacao links = {lista}/>
+            </div>
+            
+           <div className="informacoes">
+             <InformacoesFilmes/>
+           </div>
+           
         </div>
-        
-                                        //lista ou data
+
+       
+
+              
     );
 }
 
 export default PageHome;
 
 
- /*let lista = [
-        'Início',
-        'Séries',
-        'Filmes',
-        'Bombando',
-        'Minha Lista',
-        'Navegar por idiomas'
-    ];*/
+ 
